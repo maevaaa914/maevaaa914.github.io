@@ -1,0 +1,42 @@
+body {
+    background-image: url('img/Snowysnow.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+    font-family: Arial Rounded MT Bold;
+}
+
+h1 {
+    color: #800080;
+    text-align: center;
+}
+
+.framed-image {
+    display: flex; /* Enable flex layout */
+    align-items: center;
+    /* Align items vertically */
+    width: 320px; /* Frame width */
+    border: 3px solid #090088; 
+    border-radius: 1px;
+    padding: 50px;
+     /* Space inside the frame */
+    background-color: #b3ebf2;
+    margin: 5px; /* Frame is left on the page*/
+}
+.framed-image img {
+    width: 200px; 
+    height: 200px; 
+    
+}
+.text-container p1 {
+    flex: 1; /* Let text take up remaining space */
+}
+.text-container p2 {
+    flex: 1; /* Let text take up remaining space */
+    margin-bottom: 10px;
+}
+
+.top-wrapper{
+    display: inline-flex;
+    gap: 50px;
+}
