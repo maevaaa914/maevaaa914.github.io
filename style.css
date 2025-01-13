@@ -1,4 +1,9 @@
-body {
+@font-face {
+    font-family: 'Arial Rounded MT Bold';
+    src: url('assets/ArialRoundedMTBold.ttf') format ('truetype');
+    }
+
+    body {
     background-image: url('img/Snowysnow.jpg');
     background-size: cover;
     background-attachment: fixed;
